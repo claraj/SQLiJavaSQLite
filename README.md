@@ -2,7 +2,7 @@
 
 Subtitle: how not to write a login screen
 
-To set up: create a SQLite database, then run the following commands in the shell to create a users database, grant permission to your database user, create a passwords table, and add some test data.
+To set up: create a SQLite database, then run the following commands in the shell to create a passwords table, and add some test data.
 
 ```
 
