@@ -5,8 +5,6 @@ Subtitle: how not to write a login screen
 To set up: create a SQLite database, then run the following commands in the shell to create a passwords table, and add some test data.
 
 ```
-
-
 create table passwords (username TEXT, login TEXT, password TEXT);
 
 insert into passwords values ('Abby Admin', 'admin', 'kittens');
@@ -46,7 +44,7 @@ Success! We now know our admin's password starts with `k`. An attacker can use t
     ' or password like 'kc%
     ....
 
-It might take a while, but admin access to a server or access to a whole database full of credit card numbers is worth the effort. (And anyone smart enough to use SQL injection is probably smart enough to write a script that will do the hard work for them... or download one of the many SQL injection tools freely available on the internet.)
+It might take a while, but admin access to a server or access to a whole database full of credit card numbers is worth the effort. And anyone smart enough to use SQL injection is probably smart enough to write a script that will do the hard work for them... or download one of the many SQL injection tools freely available on the internet.
 
 Consider this could be a login form on a website that anyone could access. This is a huge problem. 
 
